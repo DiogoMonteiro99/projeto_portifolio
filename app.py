@@ -33,13 +33,13 @@ Sinta-se à vontade para entrar em contato através dos links no final da págin
 
 Email = 'diogo.monteiro99@hotmail.com'
 
-LinkedIn = 'https://www.linkedin.com/in/diogo-monteiro-a6a213228'
+LinkedIn = 'https://www.linkedin.com/in/diogo-s-monteiro'
 
 Github = 'https://github.com/DiogoMonteiro99/repos'
 
-projeto1 = ''
+projeto_coracao = 'https://github.com/DiogoMonteiro99/Ciencias-de-dados/blob/main/coracao.ipynb'
 
-projeto2 = ''
+projeto_cancer_mama = 'https://github.com/DiogoMonteiro99/Ciencias-de-dados/blob/main/cancer_mama1.ipynb'
 
 Sobre_mim = '''
 
@@ -161,7 +161,7 @@ with col3:
     st.write('**As ferramentas utilizadas foram:**')
     st.write(ferramentas)
     if st.button('**Projeto 1**'):
-        web.open_new_tab(projeto1) 
+        web.open_new_tab(projeto_coracao)
 imagem2 = Image.open(foto2)   
      
 with col4:
@@ -171,9 +171,7 @@ with col4:
     st.write('**As ferramentas utilizadas foram:**')
     st.write(ferramentas)
     if st.button('**Projeto 2**'):
-        web.open_new_tab(projeto2)
-        
-            
+        web.open_new_tab(projeto_cancer_mama)
 
     
    
