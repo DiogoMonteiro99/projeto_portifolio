@@ -161,7 +161,7 @@ with col3:
     st.write('**As ferramentas utilizadas foram:**')
     st.write(ferramentas)
     if st.button('**Projeto 1**'):
-        web.open_new_tab(projeto_coracao)
+        web.open(projeto_coracao)
 imagem2 = Image.open(foto2)   
      
 with col4:
@@ -171,7 +171,7 @@ with col4:
     st.write('**As ferramentas utilizadas foram:**')
     st.write(ferramentas)
     if st.button('**Projeto 2**'):
-        web.open_new_tab(projeto_cancer_mama)
+        projeto_cancer_mama
 
     
    
