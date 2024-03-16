@@ -35,7 +35,7 @@ Email = 'diogo.monteiro99@hotmail.com'
 
 LinkedIn = 'https://www.linkedin.com/in/diogo-s-monteiro'
 
-Github = 'https://github.com/DiogoMonteiro99/repos'
+Github = 'https://github.com/DiogoMonteiro99/ciencia-de-dados'
 
 projeto_coracao = 'https://github.com/DiogoMonteiro99/Ciencias-de-dados/blob/main/coracao.ipynb'
 
@@ -124,7 +124,7 @@ col1, col2 = st.columns(2, gap='small')
 with col1:
     st.image(imagem, width=150)
     if st.button('**LinkedIn**'):
-        web.open_new_tab(LinkedIn)
+        LinkedIn
             
 with col2:
     st.title(nome)
@@ -133,7 +133,7 @@ with col2:
           
     # Midias socias
     if st.button('**GitHub**'):
-        web.open_new_tab(Github)
+        Github
         
         
     
@@ -161,7 +161,7 @@ with col3:
     st.write('**As ferramentas utilizadas foram:**')
     st.write(ferramentas)
     if st.button('**Projeto 1**'):
-        web.open_new(projeto_coracao)
+        projeto_coracao
 imagem2 = Image.open(foto2)   
      
 with col4:
