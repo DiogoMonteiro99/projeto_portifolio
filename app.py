@@ -161,7 +161,7 @@ with col3:
     st.write('**As ferramentas utilizadas foram:**')
     st.write(ferramentas)
     if st.button('**Projeto 1**'):
-        web.open(projeto_coracao)
+        web.open_new(projeto_coracao)
 imagem2 = Image.open(foto2)   
      
 with col4:
