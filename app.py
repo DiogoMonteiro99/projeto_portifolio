@@ -10,7 +10,7 @@ arquivo_css = diretorios / "styles" / 'geral.css'
 foto = diretorios / 'assets'/ 'foto.jpeg'
 foto1 = diretorios / 'assets'/ 'cod.jpeg'
 foto2 = diretorios / 'assets'/ 'python.jpeg'
-
+foto3 = diretorios / 'assets'/ 'estatistica-logo.jpg'
 
 # configurações gerais
 
@@ -41,6 +41,7 @@ projeto_coracao = 'https://github.com/DiogoMonteiro99/Ciencias-de-dados/blob/mai
 
 projeto_cancer_mama = 'https://github.com/DiogoMonteiro99/Ciencias-de-dados/blob/main/cancer_mama1.ipynb'
 
+projeto_estatistica = 'repos/python_zero_ds/analise_estatistica_enem.ipynb'
 Sobre_mim = '''
 
     Meu nome é Diogo Monteiro, estou cursando graduação em Ciências de Dados, na faculdade Ampli & Anhanguera.
@@ -105,7 +106,7 @@ Identificação de câncer de mama através de análises de dados com Python e m
 
 '''
 
-
+projeto3 = '''Fazendo análise de dados com estatística com os dados publicos do ENEM.'''
 
 
 st.set_page_config(
@@ -152,7 +153,7 @@ st.write(Habilidades)
 # Experiência
 st.header('Experiências')
 imagem1 = Image.open(foto1)
-col3, col4 = st.columns(2, gap='small')
+col3, col4, col5 = st.columns(2, gap='small')
     
 with col3:
     st.image(imagem1, width=350)
@@ -173,5 +174,14 @@ with col4:
     if st.button('**Projeto 2**'):
         projeto_cancer_mama
 
+imagem3 = Image.open(foto3) 
+with col5:
+    st.image(imagem3, width=350)
+    st.write('**Análise estatítica**')
+    st.write(projeto3)
+    st.write('**As ferramentas utilizadas foram:**')
+    st.write(ferramentas)
+    if st.button('**Projeto 3**'):
+        projeto_estatistica
     
    
