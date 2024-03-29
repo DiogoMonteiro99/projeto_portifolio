@@ -153,7 +153,7 @@ st.write(Habilidades)
 # Experiência
 st.header('Experiências')
 imagem1 = Image.open(foto1)
-col3, col4, col5 = st.columns(2, gap='small')
+col3, col4, col5 = st.columns(3, gap='small')
     
 with col3:
     st.image(imagem1, width=350)
