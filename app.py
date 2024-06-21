@@ -41,7 +41,7 @@ projeto_coracao = 'https://github.com/DiogoMonteiro99/Ciencias-de-dados/blob/mai
 
 projeto_cancer_mama = 'https://github.com/DiogoMonteiro99/Ciencias-de-dados/blob/main/cancer_mama1.ipynb'
 
-projeto_estatistica = 'https://github.com/DiogoMonteiro99/repos/blob/main/repos/python_zero_ds/analise_estatistica_enem.ipynb'
+projeto_estatistica = 'https://github.com/DiogoMonteiro99/repos/blob/main/repos/analise_estatistica_enem.ipynb'
 Sobre_mim = '''
 
     Meu nome é Diogo Monteiro, estou cursando graduação em Ciências de Dados, na faculdade Ampli & Anhanguera.
