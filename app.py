@@ -37,11 +37,18 @@ LinkedIn = 'https://www.linkedin.com/in/diogo-s-monteiro'
 
 Github = 'https://github.com/DiogoMonteiro99/ciencia-de-dados'
 
-projeto_coracao = 'https://github.com/DiogoMonteiro99/Ciencias-de-dados/blob/main/coracao.ipynb'
+projeto_coracao = 'https://github.com/DiogoMonteiro99/repos/blob/main/coracao.ipynb'
 
-projeto_cancer_mama = 'https://github.com/DiogoMonteiro99/Ciencias-de-dados/blob/main/cancer_mama1.ipynb'
+projeto_cancer_mama = 'https://github.com/DiogoMonteiro99/repos/blob/main/cancer_mama1.ipynb'
 
-projeto_estatistica = 'https://github.com/DiogoMonteiro99/repos/blob/main/repos/analise_estatistica_enem.ipynb'
+projeto_estatistica = 'https://github.com/DiogoMonteiro99/repos/blob/main/analise_estatistica_enem.ipynb'
+
+casas_de_boston = 'https://github.com/DiogoMonteiro99/repos/blob/main/casas_boston.ipynb'
+
+Deep_learning_regressao= 'https://github.com/DiogoMonteiro99/repos/blob/main/deep_learning_regressao.ipynb'
+
+Deep_learning_classificacao = 'https://github.com/DiogoMonteiro99/repos/blob/main/Redes_neurais_classificacao.ipynb'
+
 Sobre_mim = '''
 
     Meu nome é Diogo Monteiro, estou cursando graduação em Ciências de Dados, na faculdade Ampli & Anhanguera.
@@ -108,6 +115,11 @@ Identificação de câncer de mama através de análises de dados com Python e m
 
 projeto3 = '''Fazendo análise de dados com estatística com os dados publicos do ENEM.'''
 
+projeto4 = '''Previsões dos valores das casa em Boston, ultilizando modelos regressão linear.'''
+
+projeto5 = '''Prevendo valores de seguro médico.'''
+
+projeto6 = '''Classificação de doenças cardíacas com Deep learning.'''
 
 st.set_page_config(
     page_title=titulo
@@ -153,7 +165,7 @@ st.write(Habilidades)
 # Experiência
 st.header('Experiências')
 imagem1 = Image.open(foto1)
-col3, col4, col5 = st.columns(3, gap='small')
+col3, col4, col5, col6,col7,col8 = st.columns(6, gap='small')
     
 with col3:
     st.image(imagem1, width=350)
@@ -183,5 +195,33 @@ with col5:
     st.write(ferramentas)
     if st.button('**Projeto 3**'):
         projeto_estatistica
+
+imagem4 = Image.open(foto1) 
+with col6:
+    st.image(imagem4, width=350)
+    st.write('**Previões das casas de Boston**')
+    st.write(projeto4)
+    st.write('**As ferramentas utilizadas foram:**')
+    st.write(ferramentas)
+    if st.button('**Projeto 4**'):
+        casas_de_boston        
     
-   
+imagem5 = Image.open(foto2) 
+with col7:
+    st.image(imagem5, width=350)
+    st.write('**Prevendo doenças cardíacas**')
+    st.write(projeto5)
+    st.write('**As ferramentas utilizadas foram:**')
+    st.write(ferramentas)
+    if st.button('**Projeto 5**'):
+        Deep_learning_regressao 
+
+imagem6 = Image.open(foto1) 
+with col8:
+    st.image(imagem6, width=350)
+    st.write('**Prevendo seguros médicos**')
+    st.write(projeto6)
+    st.write('**As ferramentas utilizadas foram:**')
+    st.write(ferramentas)
+    if st.button('**Projeto 6**'):
+        Deep_learning_classificacao      
